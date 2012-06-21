@@ -1,5 +1,4 @@
-# Here's a nifty new comment
-# to make things for clear for that idiot, darrell
+# all your comments are dumb
 $: << File.expand_path(File.dirname(__FILE__) + "/lib/")
 $: << File.expand_path(File.dirname(__FILE__) + "/rake/")
 
