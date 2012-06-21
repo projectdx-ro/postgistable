@@ -1,3 +1,5 @@
+# Here's a nifty new comment
+# to make things for clear for that idiot, darrell
 $: << File.expand_path(File.dirname(__FILE__) + "/lib/")
 $: << File.expand_path(File.dirname(__FILE__) + "/rake/")
 
@@ -5,7 +7,7 @@ require 'tabletask'
 require 'shapefiletask'
 
 file 'osm/seattle.osm.bz2' do |t|
-  sh %Q{cd osm && wget --timestamping http://osm-metro-extracts.s3.amazonaws.com/seattle.osm.bz2}
+  sh %Q{cd osm && echo "hi" && wget --timestamping http://osm-metro-extracts.s3.amazonaws.com/seattle.osm.bz2}
 end
 
 file 'osm/seattle.osm' => 'osm/seattle.osm.bz2' do |t|
@@ -80,9 +82,3 @@ table :world => [:world_simple, :world_detail] do |t|
 end
 
 task :default => tables
-
-# table :something => [:park_dst, :nbo_hood] do|t|
-#   run %Q/ select * from park_dst,nbo_hood
-#       /
-# end
-    
