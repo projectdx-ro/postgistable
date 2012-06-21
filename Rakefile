@@ -1,4 +1,6 @@
-# all your comments are dumb
+# he said, my comments were dumb. They aren't.
+# Here's a much less nifty old comment
+# to make things for clear for that idiot, darrell
 $: << File.expand_path(File.dirname(__FILE__) + "/lib/")
 $: << File.expand_path(File.dirname(__FILE__) + "/rake/")
 
@@ -81,3 +83,6 @@ table :world => [:world_simple, :world_detail] do |t|
 end
 
 task :default => tables
+
+
+#here is a another change.
