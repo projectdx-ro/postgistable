@@ -1,3 +1,4 @@
+# hey, I can be snarky, too. It's not that hard.
 # he said, my comments were dumb. They aren't.
 # Here's a much less nifty old comment
 # to make things for clear for that idiot, darrell
